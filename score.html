@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            p {text-indent:2em;}
+            #content1{
+                width:4800px;
+                height:880px;
+                -webkit-writing-mode: vertical-rl;
+                writing-mode: vertical-rl;
+                padding-top:100x;
+                font-size:16px;
+            }
+        </style>
+        <title>
+            Roside Edition / 上岩音樂出版社：關於樂譜製作
+        </title>
+    </head>
+    <body>
+        <div id="content1">
+        <h1>關於樂譜製作</h1>
+        <h2>《西貝柳絲樂譜雕刻提示》第一章（Sibelius Engraving Tips Chapter 1，作者：Legatissimo）</h2>
+        <p>作为面向Sibelius初级及中级Engraver的第一期Engraving Tips，本期会简单讲述如何处理Sibelius中默认Slur与Tie（连音线与延音线）的基本形状。</p>
+        <img src="/image/se11.png"width="300px">
+        <p>首先大家可以在未修改过Engraving Rules的Sibelius中输入上图的乐谱片段，得到的结果应该与上图一样，Slur与Tie的Shoulder（连音线与延音线的左右弧度）都会比较大，因为在Sibelius默认的Engraving Rules中，Slur与Tie的Shoulder大小在长连线中会被设置为90%，在短连线中会被设置为60%，在一些使用Sibelius但不精通软件的出版社里这一步会被忽略，导致很多时候长连线的外观并不自然。</p>
+        <p>为了方便阅读，笔者在这里使用中文版Sibelius（版本2022.09）展示修改Shoulder的方法：</p><p>在上方菜单栏找到外观——在最左侧找到刻入规则并点击——在刻入规则中找到“延音线1”——找到形状后取消勾选“更多长延音线的肩”（取消勾选后长延音线的肩会自动变为60%）——点击刻入规则窗口右下方的确认即可。同时也可以调整Tie的粗细为边框厚度0空间，中间厚度0.1空间（选择性操作）</p>
+        <img src="/image/se12.png"width="800px"><img src="/image/se13.png"width="800px">
+        <p>正确操作后会得到如下图一样的效果：</p>
+        <img src="/image/se14.png"width="400px">
+        <p>但我们仍然需要调整Slur的 Shoulder，这个过程可以是手动调整每一个Slur的Shoulder也可以是像笔者一样使用Engraving Rules全局调整Slur与Tie的形状，个人推荐后者，在高强度的Engraving中手调所有细节的效率较低，往往不能快速完成一份乐谱。</p>
+        <img src="/image/se17.png"width="400px">
+        <p>调整 Slur 的过程与 Tie 相似：</p>
+        <p>在上方菜单栏找到外观——在最左侧找到刻入规则并点击——在刻入规则中找到“连线”——找到形状后调整长连线的肩为 60%，即与短连线相同——点击刻入规则窗口右下方的确认即可。同样可以调整Slur的粗细为边框厚度0空间，中间厚度0.1空间，与Tie保持一致（选择性操作）</p>
+        <img src="/image/se15.png"width="800px">
+        <p>这样就可得到下图的效果：</p>
+        <img src="/image/se16.png"width="400px">
+        <p>至此第一期Sibelius Engraving Tips就结束了，后续会根据情况进行更新，如有问题可以私信我或加入我的私人QQ群聊交流：621171040，有希望我更新的内容同样可以私信联系我，会根据实际Engraving情况进行更新。</p>
+        <p style="Text-align: right">——Leave forever（編者註：即Legatissimo）<br>特别鸣谢：Schurart，匯語 / SetType<br>2024.02.02</p>
+        </div>
+    </body>
+</html>
