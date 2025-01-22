@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white
+}
+
+@font-face {
+    font-family: 'SarasaMonoSC-Bold';
+    src: url('/font/SarasaMonoSC-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'SarasaMonoSC';
+    src: url('/font/SarasaMonoSC-Regular.ttf') format('truetype');
+}
+
+h1 {
+    font-size: 96px;
+    font-family: SarasaMonoSC-Bold;
+}
+
+h2 {
+    font-size: 48px;
+    font-family: SarasaMonoSC-Bold;
+}
+
+p {
+    font-family: SarasaMonoSC;
+    text-indent: 2em;
+}
