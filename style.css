@@ -18,12 +18,29 @@ h1 {
     font-family: SarasaMonoSC-Bold;
 }
 
-h2 {
-    font-size: 48px;
-    font-family: SarasaMonoSC-Bold;
-}
 
 p {
     font-family: SarasaMonoSC;
     text-indent: 2em;
+}
+.text-box {
+    color: #000; /* 初始黑色 */
+    transition: all 0.3s ease; /* 添加过渡动画 */
+}
+
+.text-box:hover {
+    color: #fff; /* 悬停白色 */
+}
+h2 {
+    font-size: 48px;
+    font-family: SarasaMonoSC-Bold;
+    color: #000; /* 初始黑色 */
+    padding: 20px;
+    transition: color 0.5s ease; /* 颜色过渡动画 */
+    cursor: pointer;
+}
+
+/* 永久激活状态 */
+h2.active {
+    color: #fff !important; /* 强制覆盖其他样式 */
 }
