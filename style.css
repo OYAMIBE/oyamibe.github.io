@@ -32,15 +32,21 @@ p {
     color: #fff; /* 悬停白色 */
 }
 h2 {
-    font-size: 48px;
+    font-size: 72px;
     font-family: SarasaMonoSC-Bold;
     color: #000; /* 初始黑色 */
     padding: 20px;
-    transition: color 0.5s ease; /* 颜色过渡动画 */
+    transition: color 0.3s ease; /* 颜色过渡动画 */
     cursor: pointer;
 }
 
 /* 永久激活状态 */
 h2.active {
     color: #fff !important; /* 强制覆盖其他样式 */
+}
+
+h3 {
+    font-size: 72px;
+    font-family: SarasaMonoSC-Bold;
+    color: #ffffff; /* 初始黑色 */
 }
