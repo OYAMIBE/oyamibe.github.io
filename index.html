@@ -1,37 +1,28 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>
-        上岩音乐出版社 - Roside Edition
-    </title>
+    <meta charset="UTF-8">
+    <title>制谱工作室 / Engraving Studio</title>
     <style>
         @import url(style.css);
-    </style>
-</head>
+        img {
+            float: left;  /* 使图片浮动至左边 */
+            margin-right: 15px;  /* 图片右边距，给文字留出空间 */
+        }
 
+    </style>
+
+</head>
 <body>
-    <div id="content1">
-        <img src="/image/nre.png" width="200pt">
-        <h1 >上岩音乐出版社<br>Roside Edition</h1>
-        <h2 id="magicText">清晰、专业、开放<br>clear, professional, open</h2>
-        <hr>
-        <p>上岩音乐出版社（Roside Edition），成立于2022年。主要出版现代作品或近代作品（如韦伯恩等）为主。本出版社的所有乐谱全部由电子乐谱的方式<b>公开</b>，但仍然<b>保留版权</b>。部分乐谱都在国际乐谱库（<a href="imslp.org">imslp.org</a>）上公开。
-        <p>（本出版社的所有乐谱都为“虚拟出版物”。）
-        <br>
-        <hr>
-        <p><a href="https://oyamibe.github.io/score.html">关于乐谱制作（西贝柳斯乐谱雕刻提示）</a></p>
-        <p><a href="https://oyamibe.github.io/engr.html">文章 “净书小僧的乐谱闲谈”</a></p>
-    </div>
+<img src="/image/engraving-technique-research-studio.png" width="240pt"><h1>制谱工作室<br>Engraving Studio</h1>
+    <h3>楽譜浄書技研所</h3>
+        <ul>
+            <li><a href="https://oyamibe.github.io/roside.html">上岩音乐出版社（Roside Edition）</a></li>
+        </ul>
+        <ul>
+            相关网站
+            <li><a href="https://cn.imslp.org/wiki/Main_Page">国际乐谱库（IMSLP）</a></li>
+        </ul>
+
 </body>
-<script>
-    // 获取文本元素
-    const textElement = document.getElementById('magicText');
-    
-    // 监听鼠标悬停事件
-    textElement.addEventListener('mouseover', () => {
-        // 添加永久激活类
-        textElement.classList.add('active');
-    });
-</script>
 </html>
