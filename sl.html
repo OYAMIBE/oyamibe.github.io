@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <title>
+    上岩音乐出版社 - Roside Edition
+  </title>
+  <style>
+    @import url(style.css);
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    nav ul {
+      display: flex;
+      list-style: none;
+    }
+
+    nav ul li {
+      margin-left: 25px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    /* 乐谱列表 */
+    .sheet-music-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px 0;
+    }
+
+    .sheet-music-card {
+      background: #000000;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .sheet-music-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .sheet-image {
+      height: 285px;
+      background-color: #000000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #000000;
+      font-size: 64px;
+    }
+
+    .sheet-info {
+      padding: 20px;
+    }
+
+    .sheet-title {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .sheet-composer {
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    /* 响应式设计 */
+    @media (max-width: 768px) {
+      .header-content {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      nav ul {
+        margin-top: 20px;
+        justify-content: center;
+      }
+
+      .sheet-music-list {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      }
+    }
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    /* 已访问链接 */
+    a:visited {
+      color: #ffffff;
+    }
+    /* 鼠标悬停 */
+    a:hover {
+      color: #009dff;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+<h1>乐谱库</h1>
+此页面可以下载本出版社的所有乐谱。乐谱将陆续上传，已经上传至国际乐谱库的乐谱将慢于其他乐谱上传。以及，本出版社的文件会随时更新，修正一些错误。
+<br>
+<!-- 乐谱列表 -->
+<section class="container">
+  <div class="sheet-music-list">
+    <!-- 乐谱卡片 1 -->
+    <div class="sheet-music-card">
+      <div class="sheet-image">
+        <img src="/image/Debussy-Syrinx.jpg" width="200pt">
+      </div>
+      <div class="sheet-info">
+        <div class="sheet-title"><a href="https://github.com/OYAMIBE/oyamibe.github.io/releases/download/SCORES/Debussy-Syrinx.pdf">芦笛 / Syrinx</a></div>
+        <div class="sheet-composer">C.德彪西 / C. Debussy</div>
+      </div>
+    </div>
+
+    <!-- 乐谱卡片 2 -->
+    <div class="sheet-music-card">
+      <div class="sheet-image">
+        <img src="/image/L.Boulanger-Nocturne.jpg" width="200pt">
+      </div>
+      <div class="sheet-info">
+        <div class="sheet-title"><a href="https://github.com/OYAMIBE/oyamibe.github.io/releases/download/SCORES/L.Boulanger-Nocturne.pdf">夜曲 / Nocturne</a></div>
+        <div class="sheet-composer">L.布朗热 / L. Boulanger</div>
+      </div>
+    </div>
+
+    <!-- 乐谱卡片 3 -->
+    <div class="sheet-music-card">
+      <div class="sheet-image">
+        <img src="/image/Ravel-Menuet%20sur%20le%20nom%20d'Haydn.jpg" width="200pt">
+      </div>
+      <div class="sheet-info">
+        <div class="sheet-title"><a href="https://github.com/OYAMIBE/oyamibe.github.io/releases/download/SCORES/Ravel-Menuet.sur.le.nom.d.Haydn.pdf">海顿之名的小步舞曲 / Menuet sur le nom d'Haydn</a></div>
+        <div class="sheet-composer">M.拉威尔 / M. Ravel</div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
