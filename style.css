@@ -70,3 +70,7 @@ a:hover {
     color: #ffffff;
     text-decoration: underline;
 }
+
+.no-indent {
+    text-indent: 0;
+}
