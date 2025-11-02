@@ -12,17 +12,23 @@
 body {
     background-color: black;
     color: white;
-    font-family: SarasaMonoSC-Regular, sans-serif;
+    font-family: SarasaMonoSC-Regular, serif;
+    margin-right:100px;
+    margin-left:100px;
+    line-height: 1.5;
 }
 
 h1 {
-    font-size: 96px;
-    font-family: SarasaMonoSC-Bold, sans-serif;;
+    font-size: 96px;;
+}
+
+h1 {
+    font-family: SarasaMonoSC-Bold, serif;
 }
 
 
 p {
-    font-family: SarasaMonoSC-Regular, sans-serif;;
+    font-family: SarasaMonoSC-Regular, serif;;
     text-indent: 2em;
 }
 .text-box {
@@ -35,9 +41,8 @@ p {
 }
 h2 {
     font-size: 72px;
-    font-family: SarasaMonoSC-Bold, sans-serif;;
+    font-family: SarasaMonoSC-Bold, serif;;
     color: #000; /* 初始黑色 */
-    padding: 20px;
     transition: color 0.3s ease; /* 颜色过渡动画 */
     cursor: pointer;
 }
@@ -49,12 +54,12 @@ h2.active {
 
 h3 {
     font-size: 72px;
-    font-family: SarasaMonoSC-Bold, sans-serif;;
+    font-family: SarasaMonoSC-Bold, serif;;
     color: #ffffff;
 }
 h4 {
     font-size: 48px;
-    font-family: SarasaMonoSC-Bold, sans-serif;;
+    font-family: SarasaMonoSC-Bold, serif;;
     color: #ffffff;
 }
 a {
