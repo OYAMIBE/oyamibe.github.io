@@ -28,6 +28,7 @@ p {
     font-family: SarasaMonoSC-Regular, serif;;
     text-indent: 2em;
     margin: 0 0;
+    line-height: 2;
 }
 .text-box {
     color: #000; /* 初始黑色 */
