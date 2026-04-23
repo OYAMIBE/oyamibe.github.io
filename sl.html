@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>
-    上岩音乐出版社 - Roside Edition
+    乐谱库
   </title>
   <style>
     @import url(style.css);
@@ -11,7 +11,7 @@
     .container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 0 20px;
+      padding: 0 0;
     }
     nav ul {
       display: flex;
@@ -33,7 +33,7 @@
     .sheet-music-list {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 30px;
+      gap: 0;
       padding: 40px 0;
     }
 
@@ -42,14 +42,11 @@
       border-radius: 8px;
       overflow: hidden;
       transition: transform 0.3s ease;
-    }
-
-    .sheet-music-card:hover {
-      transform: translateY(-5px);
+      gap: 0;
     }
 
     .sheet-image {
-      height: 285px;
+      width: 240px;
       background-color: #000000;
       display: flex;
       align-items: center;
@@ -66,12 +63,10 @@
       color: #ffffff;
       font-size: 18px;
       font-weight: bold;
-      margin-bottom: 10px;
     }
 
     .sheet-composer {
       color: #808080;
-      margin-bottom: 15px;
     }
 
     /* 响应式设计 */
@@ -135,7 +130,6 @@
         <div class="sheet-composer">原作版 / Urtext Edition</div>
       </div>
     </div>
-
   <div class="sheet-music-card">
     <div class="sheet-image">
       <img src="/image/Ravel-Quatuor%20pour%20instruments%20à%20cordes.jpg" width="200pt">
@@ -146,18 +140,6 @@
       <div class="sheet-composer">原作版 / Urtext Edition</div>
     </div>
   </div>
-
-    <div class="sheet-music-card">
-      <div class="sheet-image">
-        <img src="/image/Ravel-Quatuor%20pour%20instruments%20à%20cordes.jpg" width="200pt">
-      </div>
-      <div class="sheet-info">
-        <div class="sheet-title">弦乐四重奏<br>Quatuor pour instruments à cordes<br>（敬请期待）</div>
-
-        <div class="sheet-composer">M.拉威尔 / M. Ravel</div>
-        <div class="sheet-composer">评注版 / Critical Edition</div>
-      </div>
-    </div>
     <div class="sheet-music-card">
       <div class="sheet-image">
         <img src="/image/1ere%20Gnossienne-0003.jpg" width="200pt">
@@ -206,6 +188,17 @@
       <div class="sheet-info">
         <div class="sheet-title"><a href="https://github.com/OYAMIBE/oyamibe.github.io/releases/download/SCORES/Scriabin-Prelude-1.pdf">前奏曲No.1<br>Prélude No.1</a></div>
         <div class="sheet-composer">A.斯克里亚宾 / A. Scriabin</div>
+        <div class="sheet-composer">原作版 / Urtext Edition</div>
+      </div>
+    </div>
+    <div class="sheet-music-card">
+      <div class="sheet-image">
+        <img src="/image/Schoenberg-Präludium.jpg" width="200pt">
+      </div>
+      <div class="sheet-info">
+        <div class="sheet-title"><a href="https://github.com/OYAMIBE/oyamibe.github.io/releases/download/SCORES/Schoenberg-Klavier.Stuck.1.pdf">前奏曲<br>Präludium</a></div>
+        <div class="sheet-composer">选自《钢琴组曲》<br>from <b>Suite für Klavier</b></div>
+        <div class="sheet-composer">A.勋伯格 / A. Schoenberg</div>
         <div class="sheet-composer">原作版 / Urtext Edition</div>
       </div>
     </div>

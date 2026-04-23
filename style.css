@@ -1,4 +1,3 @@
-
 @font-face {
     font-family: SarasaMonoSC-Bold;
     src: url('/font/SarasaMonoSC-Bold.ttf') format('truetype');
@@ -15,14 +14,12 @@ body {
     font-family: SarasaMonoSC-Regular, serif;
     margin-right:100px;
     margin-left:100px;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 h1 {
     font-size: 96px;;
-}
-
-h1 {
+    line-height: 1.5;
     font-family: SarasaMonoSC-Bold, serif;
 }
 
@@ -30,6 +27,7 @@ h1 {
 p {
     font-family: SarasaMonoSC-Regular, serif;;
     text-indent: 2em;
+    margin: 0 0;
 }
 .text-box {
     color: #000; /* 初始黑色 */
@@ -45,6 +43,7 @@ h2 {
     color: #000; /* 初始黑色 */
     transition: color 0.3s ease; /* 颜色过渡动画 */
     cursor: pointer;
+    line-height: 1.5;
 }
 
 /* 永久激活状态 */
@@ -56,11 +55,13 @@ h3 {
     font-size: 72px;
     font-family: SarasaMonoSC-Bold, serif;;
     color: #ffffff;
+    line-height: 1.5;
 }
 h4 {
     font-size: 48px;
     font-family: SarasaMonoSC-Bold, serif;;
     color: #ffffff;
+    line-height: 1.5;
 }
 a {
     color: #009dff;
