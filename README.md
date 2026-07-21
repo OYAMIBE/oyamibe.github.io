@@ -1,1 +1,0 @@
-https://oyamibe.github.io/
